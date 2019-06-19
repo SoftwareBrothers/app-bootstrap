@@ -1,0 +1,3 @@
+[submodule "hapi"]
+	path = hapi
+	url = git@github.com:SoftwareBrothers/hapi-app-bootstrap.git
