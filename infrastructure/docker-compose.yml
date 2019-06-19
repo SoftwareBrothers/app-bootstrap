@@ -1,0 +1,31 @@
+version: "3.3"
+services:
+  api:
+    container_name: hapi
+    restart: always
+    build:
+      context: ../hapi/
+      dockerfile: ../hapi/infrastructure/Dockerfile.dev
+    ports:
+      - "8080:8080"
+    links:
+      - mongo
+    volumes:
+      - /usr/src/app/node_modules
+      - ../hapi:/usr/src/app
+
+    command: "bash -c 'wait && yarn run start-dev'"
+    env_file: '.env'
+    environment:
+      WAIT_HOSTS: mongo:27017
+
+  mongo:
+    container_name: mongo
+    image: mongo
+    volumes:
+      - mongodb:/data/db
+    ports:
+      - "27017:27017"
+
+volumes:
+  mongodb:

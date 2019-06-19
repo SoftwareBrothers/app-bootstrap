@@ -1,0 +1,16 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "Simple jsdoc setup",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json --readme README.md"
+  },
+  "author": "Wojciech Krysiak",
+  "license": "MIT",
+  "dependencies": {
+    "better-docs": "^1.1.6",
+    "jsdoc": "^3.6.2",
+    "jsdoc-mermaid": "^1.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules
+.nyc_output
+docs
+coverage
+.DS_Store
+.idea
+.env
+.env.yml
+codeship.aes
+.adminbro

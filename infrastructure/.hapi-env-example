@@ -1,0 +1,6 @@
+MONGO_URL=mongodb://mongo/hapi-api
+COOKIE_PASSWORD=examplecookiepasswordwhicisquitelong
+JWT_SECRET=examplejwtsecretfile
+NODE_ENV=development
+PORT=8080
+ADMIN=true

@@ -1,0 +1,42 @@
+{
+    "tags": {
+        "allowUnknownTags": ["mermaid", "category", "component"]
+    },
+    "source": {
+        "include": ["../hapi"],
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "plugins": [
+        "plugins/markdown",
+        "jsdoc-mermaid",
+        "better-docs/category"
+    ],
+    "opts": {
+        "template": "node_modules/better-docs",
+        "encoding": "utf8",
+        "destination": "out/",
+        "recurse": true,
+        "verbose": true,
+        "tutorials": "./tutorials",
+        "default": {
+            "staticFiles": {
+                "include": [
+                    "./assets"
+                ]
+            }
+        },
+        "better-docs": {
+            "name": "Documentation",
+            "navigation": [
+                {
+                    "label": "LINK",
+                    "href": "https://external-link.com"
+                }
+            ]
+        }
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    }
+}
