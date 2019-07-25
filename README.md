@@ -2,6 +2,12 @@
 
 This is a wrapper repo containing different application boilerplates.
 
+## The purpose
+
+The purpose of the repo and all it's submodules is to:
+* speed up starting new projects.
+* enforce following standards and good practices.
+
 ## How to use it
 
 The goal of the repo is to bootstrap project creation in SoftwareBrothers. By using it you ensures that your project follows the good practices within our company.
@@ -22,10 +28,8 @@ It consists of 2 major parts
 
 It has templates for following frameworks
 
-* (hapi)[./hapi]
-* (react native)[./react-native]
-* react (soon)
-* angular (soon)
+* hapi: `./hapi`
+* react native: `./sb-starter-react-native`
 
 *2. Root project setup*
 
@@ -44,6 +48,21 @@ cd documentation
 yarn install
 yarn docs
 ```
+
+## Adding new boilerplates
+
+Every one of us can add new app boilerplate. Please just ensure the repo has:
+
+* readme with the information how to run it.
+* linter
+* docker setup
+* continuous integration and delivery
+* automated tests
+* authentication with JWT
+
+_Not all elements are required_
+
+Then you can request adding it to the list of the boilerplates.
 
 ## License
 
