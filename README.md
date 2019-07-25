@@ -18,7 +18,9 @@ git clone --recursive git://github.com/softwarebrothers/app-bootstrap.git
 
 Next, remove all `.git` folders and push needed parts to your repositories.
 
-Alternative approach is to cherry peak the things you want to include in your project - this is also ok.
+*Alternative approach*
+
+...is to cherry peak the things you want to include in your project - this is also ok.
 
 ## What does it contain
 
