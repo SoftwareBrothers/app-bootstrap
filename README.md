@@ -16,6 +16,12 @@ When you starting a new project simply clone this repo with '--recursive' flag:
 git clone --recursive git://github.com/softwarebrothers/app-bootstrap.git
 ```
 
+Also it may have sense to checkout the latest version for each submodule (by default master repo tracks submodules by particular commit):
+
+```
+git submodule foreach "(git checkout master; git pull)"
+```
+
 Next, remove all `.git` folders and push needed parts to your repositories.
 
 *Alternative approach*
