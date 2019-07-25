@@ -5,6 +5,7 @@ coverage
 .DS_Store
 .idea
 .env
+.hapi-env
 .env.yml
 codeship.aes
 .adminbro

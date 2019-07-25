@@ -14,8 +14,8 @@ services:
       - /usr/src/app/node_modules
       - ../hapi:/usr/src/app
 
-    command: "bash -c 'wait && yarn run start-dev'"
-    env_file: '.env'
+    command: "bash -c 'wait && yarn run start'"
+    env_file: '.hapi-env'
     environment:
       WAIT_HOSTS: mongo:27017
 
