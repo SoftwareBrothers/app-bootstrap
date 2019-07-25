@@ -1,3 +1,6 @@
 [submodule "hapi"]
 	path = hapi
 	url = git@github.com:SoftwareBrothers/hapi-app-bootstrap.git
+[submodule "sb-starter-react-native"]
+	path = sb-starter-react-native
+	url = git@github.com:SoftwareBrothers/sb-starter-react-native.git
