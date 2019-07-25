@@ -10,8 +10,6 @@ The purpose of the repo and all it's submodules is to:
 
 ## How to use it
 
-The goal of the repo is to bootstrap project creation in SoftwareBrothers. By using it you ensures that your project follows the good practices within our company.
-
 When you starting a new project simply clone this repo with '--recursive' flag:
 
 ```
@@ -19,6 +17,8 @@ git clone --recursive git://github.com/softwarebrothers/app-bootstrap.git
 ```
 
 Next, remove all `.git` folders and push needed parts to your repositories.
+
+Alternative approach is to cherry peak the things you want to include in your project - this is also ok.
 
 ## What does it contain
 
